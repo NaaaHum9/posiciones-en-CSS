@@ -1,0 +1,134 @@
+h1{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    background-color:ghostwhite;
+}
+
+/* Position Relative*/
+.sect1 div{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+}
+
+.div2{
+    position: relative;
+    left: 80px;
+}
+
+.div4{
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+.sect2 .divPadre{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #080808;
+}
+
+/* Position Absolute*/
+.sect2 div{
+    width: 70px;
+    height: 35px;
+    background-color: antiquewhite;
+}
+
+.sect2 .hijo2{
+    position: absolute;
+    top:  0px;
+    left: 150px;
+}
+
+.sect2 .hijo4{
+    position: absolute;
+    bottom: 70px;
+    right: 100px;
+}
+
+/* Position Fixed*/
+.sect3 div{
+    width: 90px;
+    height: 100px;
+    background-color: #34a844;
+}
+
+.sect3 .bloque5{
+    position: fixed;
+    top: 30px;
+    left: 150px;
+}
+
+.sect3 .bloque7{
+    position: fixed;
+    right: 100px;
+    bottom: 80px;
+}
+
+/* Position Float*/
+.sect4 .contenedor{
+    height: 50px;
+    background-color: #18abdb;
+}
+
+.sect4 .contenedor .left{
+    float: left;
+    padding: 7px;
+}
+
+.sect4 .contenedor .right{
+    float: right;
+    padding: 7px;
+}
+
+/* Propiedad Clear */
+.proClear div{
+    margin: 15px;
+}
+
+.proClear .primero{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: right;
+}
+
+.proClear .segundo{
+    width: 400px;
+    height: 150px;
+    background-color: blue;
+    clear: right;
+}
+
+/* Propiedad z-index */
+.proppiedad-Zindex div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.proppiedad-Zindex .primero{
+    background-color: red;
+    top: 100px;
+    left: 30px;
+    z-index: 10;
+}
+
+.proppiedad-Zindex .segundo{
+    background-color: blue;
+    top: 100px;
+    left: 80px;
+    z-index: 5;
+}
+
+.proppiedad-Zindex .tercero{
+    background-color: yellow;
+    top: 100px;
+    left: 130px;
+    z-index: 1;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Actividad 10/style.css">
+    <title>Posiciones</title>
+</head>
+<body>
+    <header>
+        <h1>Posicionamientos</h1>
+        <p></p>
+        <br>
+    </header>
+
+    <main>
+        <section>
+            <h1>Posicionamiento Estatico</h1>
+            <p>Valor predeterminado para todos los elementos, los elementos se posicionan de acuerdo al flujo normal del documento</p>
+            <div>
+
+            </div>
+        </section>
+        <br>
+
+        <section class="sect1">
+            <h1>Posicionamiento Relativo</h1>
+            <p>Ahusta la posicion de un elemento desde su ubicacion normal en el flujo del documento</p>
+                <div>Elemento 1</div>
+                <div class="div2">Elemento 2</div>
+                <div>Elemento 3</div>
+                <div class="div4">Elemento 4</div>
+                <div>Elemento 5</div>
+        </section>
+        <br>
+
+        <section class="sect2">
+            <h1>Position Absolute</h1>
+            <p>Permite posicionar un elemento en relacion con su contenedor posicionado mas cercano que no tenga position: estatic;</p>
+            <div class="divPadre">
+                <div>Hijo 1</div>
+                <div class="hijo2">Hijo 2</div>
+                <div>Hijo 3</div>
+                <div class="hijo4">Hijo 4</div>
+                <div>Hijo 5</div>
+                <div class="hijo6">Hijo 6</div>
+            </div>
+        </section>
+        <br>
+
+        <section class="sect3">
+            <h1>Position Fixed</h1>
+            <p>Permite posicionar un elemento en relacion con la ventana del navegador, es decir el punto de partida es el borde de pantalla</p>
+            <div>BLOQUE 1</div>
+            <div>BLOQUE 2</div>
+            <div>BLOQUE 3</div>
+            <div>BLOQUE 4</div>
+            <div class="bloque5">BLOQUE 5</div>
+            <div>BLOQUE 6</div>
+            <div class="bloque7">BLOQUE 7</div>
+            <div>BLOQUE 8</div>
+            <div>BLOQUE 9</div>
+            <div>BLOQUE 10</div>
+        </section>
+        <br>
+
+        <section class="sect4">
+            <h1>Position Float</h1>
+            <p>Permite alinear un elemento a la izquierda o derecha y hacer que el contenido que lo sigue fluya a su alrededor</p>
+            <p>Un elemento debe flotar a un lado de otro, ya sea al lado derecho izquierdo del contenedor en el que se encuentre de tal manera que un elemento quede flotando en un lado con los demás elementos de texto y de línea alrededor de ella como si los estuvieran envolviendo.</p>
+            <div class="contenedor">
+                <div class="left"> Bloque 1</div>
+                <div class="left"> Bloque 2</div>
+                <div class="left"> Bloque 3</div>
+                <div class="left"> Bloque 4</div>
+            </div>
+            <br>
+            <div class="contenedor">
+                <div class="right"> Bloque 5</div>
+                <div class="right"> Bloque 6</div>
+                <div class="right"> Bloque 7</div>
+                <div class="right"> Bloque 8</div>
+            </div>
+        </section>
+        <br>
+
+        <section class="proClear">
+            <h1>Propiedad Clear</h1>
+            <p>La propiedad clear nos permite limpiar o despejar elementos que se encuentras a lado de un elemento flotante.</p>
+            <p>Valores para clear son: left desplace al elemento hasta donde no haya un flotante a la izquierda, right indica que desplace al elmeneto hasta donde no haya un flotante a la derecha, both indica que desplace al elemento hasta donde no hya flotantes a la derecha ni a la izquierda.</p>
+            <h1>Un titulo fantastico</h1>
+            <div class="primero">primero</div>
+            <div class="segundo">segundo</div>
+        </section>
+        <br>
+
+        <section class="proppiedad-Zindex">
+            <h1>Propiedad z-index</h1>
+            <p>Propiedad que esta pensada para ordenar elementos en el eje z, en palabras sencillas sirve para poner elementos uno sobre otros</p>
+            <p>Los elementos con z-index cuyos valores son mayores se superponen sobre aquellos que tienen menor valor numérico.</p>
+            <p>Valores: auto:no establece un nuevo contexto de apilamiento, el nivle de apilamiento es el mismo que del padre, entero, puede ser un numero entero, inherit hereda del elemento padre</p>
+            <div class="primero">Rojo</div>
+            <div class="segundo">Azul</div>
+            <div class="tercero">Amarillo</div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
